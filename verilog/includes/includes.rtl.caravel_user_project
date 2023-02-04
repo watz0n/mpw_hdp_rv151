@@ -1,5 +1,18 @@
 # Caravel user project includes
--v $(USER_PROJECT_VERILOG)/rtl/user_project_wrapper.v	     
--v $(USER_PROJECT_VERILOG)/rtl/user_proj_example.v
 
- 
+-v $(USER_PROJECT_VERILOG)/rtl/user_project_wrapper.v
+-v $(USER_PROJECT_VERILOG)/rtl/src/hdp_rv151.v
+-v $(USER_PROJECT_VERILOG)/rtl/src/rv151_soc.v
+-v $(USER_PROJECT_VERILOG)/rtl/src/core/rv151_alu.v
+-v $(USER_PROJECT_VERILOG)/rtl/src/core/rv151_brh.v
+-v $(USER_PROJECT_VERILOG)/rtl/src/core/rv151_core.v
+-v $(USER_PROJECT_VERILOG)/rtl/src/core/rv151_ctl.v
+-v $(USER_PROJECT_VERILOG)/rtl/src/core/rv151_imm.v
+-v $(USER_PROJECT_VERILOG)/rtl/src/core/rv151_rgf.v
+-v $(USER_PROJECT_VERILOG)/rtl/src/io/bspi.v
+-v $(USER_PROJECT_VERILOG)/rtl/src/io/bspi_aff.v
+-v $(USER_PROJECT_VERILOG)/rtl/src/io/bspi_bif.v
+-v $(USER_PROJECT_VERILOG)/rtl/src/io/bspi_oif.v
+-v $(USER_PROJECT_VERILOG)/rtl/src/io/uart.v
+-v $(USER_PROJECT_VERILOG)/rtl/src/io/uart_receiver.v
+-v $(USER_PROJECT_VERILOG)/rtl/src/io/uart_transmitter.v 
