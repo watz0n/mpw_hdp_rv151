@@ -63,7 +63,7 @@
 ------
 ### Reference
     
-[1]. Sky130 SRAM Macro DRC Walkaround discussion
+* [1]. Sky130 SRAM Macro DRC work-around discussion
     * [efabless/mpw_precheck: Precheck crash with SRAM DRC](https://github.com/efabless/mpw_precheck/issues/180)
 
 ------
